@@ -1,55 +1,20 @@
 .slider{
-	background: url('../images/slider-bac.jpg') 50% 50% no-repeat;
+	/*background: url('../images/slider-bac.jpg') 50% 50% no-repeat;
 	background-size: cover;
 	padding: 57px 0 53px 0;
 	max-height: 520px;
 	overflow: hidden;
-  margin-top: 16px;
+  margin-top: 16px;*/
 	&_wrap{
 		@include clearfix;
-	}
-	&_left{
-		float: left;
-		width: 59%;
-		text-align: left;
-		img{
-			width: 100%;
-			height: auto;
-			max-width: 573px;
-		}
-	}
-	&_right{
-		float: left;
-		width: 41%;
-		//text-align: right;
-		img{
-			width: 100%;
-			height: auto;
-			max-width: 573px;
-		}
 	}
 	&-list{
 		position: relative;
 	}
-	&_title{
-		color: #fdfdfd;
-		font-size: 38px;
-		font-family: $fontBold;
-		background-color: #f3841b;
-		padding: 4px 0 6px 20px;
-		margin-top: 124px;
-		& + p{
-			font-size: 17px;
-			color: #353535;
-			font-family: $fontBold;
-			line-height: 1.45;
-			padding: 15px 15px;
-		}
-	}
-    /*! lightslider - v1.1.3 - 2015-04-14
-    * https://github.com/sachinchoolur/lightslider
-    * Copyright (c) 2015 Sachin N; Licensed MIT */
-    /** /!!! core css Should not edit !!!/**/ 
+  /*! lightslider - v1.1.3 - 2015-04-14
+  * https://github.com/sachinchoolur/lightslider
+  * Copyright (c) 2015 Sachin N; Licensed MIT */
+  /** /!!! core css Should not edit !!!/**/ 
 
   .lSSlideOuter {
       overflow: hidden;

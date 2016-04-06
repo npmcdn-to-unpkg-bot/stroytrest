@@ -1,50 +1,79 @@
 .header{
+	padding-top: 20px;
 	&_wrap{
 		@include clearfix;
 	}
-	&_top{
-		background-color: #7f7f82;
-		font-size: 16px;
-		text-align: right;
+	&_left{
+		float: left;
+		width: 60%;
 	}
 	&_right{
-		float: right;
-		width: 210px;
-		//margin-left: 27px;
-		//background-color: #ccc;
-	}
-	&_left{
-		//background-color: #999;
-		//overflow: hidden;
-		//float: left;
-		//width: 100%;
-		margin-right: 237px;
+		float: left;
+		width: 40%;
+		text-align: right;
 	}
 	&_logo{
-		margin-top: 18px;
 		display: block;
-		max-width: 500px;
+		max-width: 521px;
 		img{
 			width: 100%;
-			max-width: 496px;
 			height: auto;
 		}
 	}
-	&_link{
-		display: block;
-		background: url('../images/button-bac.png') repeat-x;
-		@include link(#fdf9f9, #fdf9f9);
-		font-family: $fontBold;
-		text-decoration: none;
-		text-transform: uppercase;
-		text-align: center;
-		line-height: 1.85;
-		box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.24);
-		@include wide{
-			line-height: 1.7;
+	&_phone{
+		padding-top: 9px;
+		p{
+			font-family: Tahoma, Verdana, Segoe, sans-serif;
+			text-align: right;
+			font-size: 13px;
+			line-height: 1.2;
+			color: #333232;
+			&:first-child{
+				span{
+					position: relative;
+					&:before{
+						content: "";
+						position: absolute;
+						left: -32px;
+						top: 2px;
+						background: url('../images/header-icon.png');
+						width: 20px;
+						height: 20px;
+					}
+				}
+			}
 		}
+	}
+	&_address{
+		padding: 2px 0 15px;
+		p{
+			text-align: right;
+			font-size: 13px;
+			line-height: 1.35;
+			color: #5b5c60;
+			letter-spacing: -0.35px;
+		}
+	}
+	&_button{
+		opacity: 1;
+		display: inline-block;
+		margin-bottom: 2px;
+		height: 38px;
+		width: 189px;
+		max-width: 189px;
+		background: rgba(185,67,28,1);
+		background: linear-gradient(rgba(242,168,145,1) 0%, rgba(185,67,28,1) 100%);
+		text-align: center;
+		font-weight: bold;
+		font-size: 14px;
+		line-height: 37px;
+		@include link(#fefefe, #fefefe);
+		text-transform: uppercase;
+		text-decoration: none;
+		letter-spacing: -0.35px;
 		&:hover{
-			box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+			background: rgba(53,97,173,1);
+			background: linear-gradient(to bottom, rgba(141,176,237,1) 0%, rgba(53,97,173,1) 100%);
 		}
 	}
 }

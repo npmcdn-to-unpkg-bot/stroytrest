@@ -18,19 +18,8 @@ body{
 a{
 
 }
-p{
-
-}
-h1{
-  font-family: $fontBold;
-  font-size: 28px;
-  text-transform: uppercase;  
-}
-h2{
-
-}
 b, strong{
-  font-family: $fontBold;
+  font-weight: bold;
 }
 em{
   font-style: italic;
@@ -58,33 +47,33 @@ pre{
 }
 ::-webkit-input-placeholder {
   font-family: $font;
-  color: #434242;
-  font-size: 20px;
+  /*color: #434242;
+  font-size: 20px;*/
 }
 :-moz-placeholder {
   font-family: $font;
-  color: #434242;
-  font-size: 20px;
+  /*color: #434242;
+  font-size: 20px;*/
 }
 ::-moz-placeholder {
   font-family: $font;
-  color: #434242;
-  font-size: 20px;
+  /*color: #434242;
+  font-size: 20px;*/
 }
 :-ms-input-placeholder {
   font-family: $font;
-  color: #434242;
-  font-size: 20px;
+  /*color: #434242;
+  font-size: 20px;*/
 }
 ::-ms-input-placeholder {
   font-family: $font;
-  color: #434242;
-  font-size: 20px;
+  /*color: #434242;
+  font-size: 20px;*/
 }
 :placeholder-shown {
   font-family: $font;
-  color: #434242;
-  font-size: 20px;
+  /*color: #434242;
+  font-size: 20px;*/
 }
 .hide{
   display: none;

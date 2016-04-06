@@ -1,29 +1,23 @@
 .form-popup{
-	width: 466px;
+	/*width: 466px;
 	height: 435px;
 	background-color: #5da9b4;
-	padding: 70px 55px;
+	padding: 70px 55px;*/
 	& .messages{
 		display: none;
 	}
 	&_title{
-		font-family: $fontBold;
-		color: #fdf9f9;
-		font-size: 38px;
 		text-transform: uppercase;
 		text-align: center;
-		margin-bottom: 45px;
 	}
 	&_inner{
 		margin: 0 0 25px 0;
 		input{
 			height: 58px;
 			width: 100%;
-			line-height: 3;
 			padding: 0 15px;
 			border: none;
 			text-align: center;
-			font-size: 16px;
 			box-shadow: inset 0px 0px 1px 1px rgba(0,0,0,0.51);
 			&.error{
 				box-shadow: inset 0px 0px 5px 1px rgba(255,0,0,1),
@@ -38,14 +32,8 @@
 			display: block;
 			width: 206px;
 			margin: 0 auto;
-			background: url('../images/button-bac.png') repeat-x;
-			background-size: auto 100%;
 			border: none;
-			font-family: $fontBold;
-			font-size: 17px;
 			text-transform: uppercase;
-			color: #fdf9f9;
-			line-height: 2.1;
 			cursor: pointer;
 			box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.24);
 			&:hover{
@@ -55,11 +43,10 @@
 	}
 	&_confirmation{
 		p{
-			text-align: center;
-			color: #fdf9f9;
+
 		}
 	}
-	::-webkit-input-placeholder {
+	/*::-webkit-input-placeholder {
 	  font-family: $font;
 	  color: #6a6a6d;
 	  font-size: 18px;
@@ -94,5 +81,5 @@
 	  color: #6a6a6d;
 	  font-size: 18px;
 	  opacity: 1;
-	}
+	}*/
 }
