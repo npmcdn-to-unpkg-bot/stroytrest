@@ -1,3 +1,11 @@
 .main{
-	
+	@include clearfix;
+	&_left{
+		float: left;
+		width: 22.7%;
+	}
+	&_right{
+		float: left;
+		width: 77.3%;
+	}
 }

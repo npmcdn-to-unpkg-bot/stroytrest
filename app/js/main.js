@@ -13,12 +13,19 @@ $(document).ready(function(){
         $(this).addClass("menuRight_item__open").find(".menuRight_link").next().slideDown("normal");
       }
   });*/
-  $(".slider_list").lightSlider({
+
+
+  /*$(".slider_list").lightSlider({
     item: 1,
     loop:true,
     slideMargin: 0,
     galleryMargin: 18
-  });
+  });*/
+
+
+
+
+
   /*var reviewsList = $(".reviews_list").lightSlider({
     item: 3,
     loop:true,

@@ -44,12 +44,7 @@
     	*display : inline;
     	*zoom : 1;
   	}
-    /*&__l2{
-    	padding: 0 12px;
-    	&:hover{
-    		background-color: #7f7f82;
-    	}
-    }*/
+
     position: relative;
     &:after{
 			content: '';
@@ -94,6 +89,10 @@
     	*max-width: 130px;
     	*padding-top: 10px;
     	*height: 43px;
+  	}
+  	@include m1024{
+  		font-size: 11px;
+  		padding: 0 6px 0 6px;
   	}
 		&__l2{
 			@include link(#fefdfd, #fefdfd);
