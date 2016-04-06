@@ -1,0 +1,35 @@
+.user-content{
+	padding-bottom: 86px;
+	h1{
+		font-family: $fontBold;
+		font-size: 28px;
+		color: #5da9b4;
+		text-transform: uppercase;
+		margin-bottom: 16px;
+	}
+	h2{
+		font-family: $fontBold;
+		font-size: 24px;
+		color: #6a6a6d;
+		margin-bottom: 7px;
+	}
+	ul{
+		margin: 0 0 58px 0;
+		padding: 0 38px 0 38px;
+		li{
+			margin-bottom: 5px;
+			position: relative;
+			font-size: 21px;
+			padding-left: 30px;
+			&:before{
+				content: "";
+				position: absolute;
+				top: 12px;
+				left: 0;
+				width: 11px;
+				height: 5px;
+				background-color: #5da9b4;
+			}
+		}
+	}
+}

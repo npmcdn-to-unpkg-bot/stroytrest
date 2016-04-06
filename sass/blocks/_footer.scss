@@ -1,0 +1,47 @@
+.footer{
+	&_top{
+		box-shadow: inset 0 15px 7px -10px rgba(94,94,94,.6),
+								inset 0 -15px 7px -10px rgba(94,94,94,.6);
+		background-color: #53a9b6;
+	}
+	&_bottom{
+		background: url('../images/footer-bac.jpg') repeat;
+		padding: 28px 0 15px;
+		background-size: cover;
+	}
+	&_wrap{
+		@include clearfix;
+		position: relative;
+	}
+	&_item{
+		float: left;
+		width: 33.33%;
+	}
+	&_phrase{
+		max-width: 947px;
+		height: 180px;
+		margin: 0 auto;
+		background: url('../images/footer-top.png') 50% 40% no-repeat;
+		background-size: contain;
+	}
+	&_logo{
+		margin-top: 18px;
+		display: block;
+		max-width: 200px;
+		float: right;
+		position: relative;
+		top: -11px;
+		img{
+			width: 100%;
+			height: auto;
+		}
+	}
+	&_copy{
+		float: right;
+		width: 230px;
+		max-width: 200px;
+		text-align: center;
+		color: #fffefe;
+		font-size: 16px;
+	}
+}
