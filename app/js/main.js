@@ -15,12 +15,13 @@ $(document).ready(function(){
   });*/
 
 
-  /*$(".slider_list").lightSlider({
-    item: 1,
+  $(".slider_list").lightSlider({
+    item: 3,
     loop:true,
-    slideMargin: 0,
-    galleryMargin: 18
-  });*/
+    slideMargin: 27,
+    pager: false
+    //galleryMargin: 18
+  });
 
 
 
