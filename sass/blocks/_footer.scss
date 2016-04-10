@@ -7,6 +7,68 @@
 		float: left;
 		width: 33.33%;
 	}
-	&_logo{
+	&_top{
+		padding-top: 38px;
+		background: url('../images/footer-bac.png') no-repeat;
+		background-size: cover;
+	}
+	&_bottom{
+		background-color: #d0d0d0;
+	}
+	&_phone{
+		font-family: Tahoma, Verdana, Segoe, sans-serif;
+		font-size: 13px;
+		line-height: 1.35;
+		color: #333232;
+		padding-left: 44px;
+		letter-spacing: -0.2px;
+		margin-bottom: 14px;
+		position: relative;
+		&:before{
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 6px;
+			background: url('../images/footer-icon.png');
+			width: 30px;
+			height: 30px;
+		}
+	}
+	&_address{
+		font-size: 13px;
+		line-height: 1.19;
+		color: #333232;
+		padding-left: 44px;
+		letter-spacing: -0.1px;
+		margin-bottom: 17px;
+		position: relative;
+		&:before{
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 5px;
+			background: url('../images/footer-icon.png');
+			background-position: -30px 0;
+			width: 30px;
+			height: 30px;
+		}
+	}
+	&_time{
+		font-size: 13px;
+		line-height: 1.20;
+		color: #333232;
+		padding-left: 44px;
+		letter-spacing: -0.1px;
+		position: relative;
+		&:before{
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 6px;
+			background: url('../images/footer-icon.png');
+			background-position: -60px 0;
+			width: 30px;
+			height: 30px;
+		}
 	}
 }

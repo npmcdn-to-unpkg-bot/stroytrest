@@ -1,0 +1,11 @@
+.menu-footer{
+	padding: 1px 0 0 27px;
+	&_item{
+		margin-bottom: 4px;
+	}
+	&_link{
+		font-size: 12px;
+		@include link(#3e67ae, #292929);
+		letter-spacing: -0.45px;
+	}
+}

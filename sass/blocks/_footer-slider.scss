@@ -1,4 +1,4 @@
-.slider{
+.footer-slider{
 	/*background: url('../images/slider-bac.jpg') 50% 50% no-repeat;
 	background-size: cover;
 	padding: 57px 0 53px 0;
@@ -6,11 +6,17 @@
 	overflow: hidden;
   margin-top: 16px;*/
   
-  padding: 16px 44px 2px 36px;
+  //padding: 16px 44px 2px 36px;
   position: relative;
 	&_wrap{
 		@include clearfix;
 	}
+	&-list{
+		position: relative;
+	}
+  &_item{
+    max-width: 25%;
+  }
   &_link{
     display: block;
     @include link(#2e2d2d, #2e2d2d);

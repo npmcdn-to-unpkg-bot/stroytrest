@@ -15,11 +15,26 @@ $(document).ready(function(){
   });*/
 
 
-  $(".slider_list").lightSlider({
+  var myslider = $(".slider-list").lightSlider({
     item: 3,
     loop:true,
-    slideMargin: 27,
-    pager: false
+    slideMargin: 26,
+    pager: false,
+    controls: false
+    //galleryMargin: 18
+  });
+  $(".slider_left").click(function(){
+    myslider.goToPrevSlide();
+  });
+  $(".slider_right").click(function(){
+    myslider.goToNextSlide();
+  });
+  var myslider2 = $(".footer-slider-list").lightSlider({
+    item: 4,
+    loop:true,
+    slideMargin: 24,
+    pager: false,
+    controls: false
     //galleryMargin: 18
   });
 
