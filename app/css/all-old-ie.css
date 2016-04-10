@@ -3072,10 +3072,11 @@ pre {
     right: 0; }
   .slider_title {
     display: block;
+    height: 45px;
     background-color: #f1f1f1;
     text-align: center;
     font-size: 12px;
-    padding: 6px 20px 11px 20px;
+    padding: 6px 23px 11px 23px;
     line-height: 1.2;
     letter-spacing: -0.3px; }
     .slider_link:hover .slider_title {
@@ -3589,12 +3590,13 @@ pre {
   width: 33.33%; }
 
 .footer_top {
-  padding-top: 38px;
+  padding: 38px 0 49px 0;
   background: url("../images/footer-bac.png") no-repeat;
   background-size: cover; }
 
 .footer_bottom {
-  background-color: #d0d0d0; }
+  background-color: #d0d0d0;
+  padding: 13px 0 12px 25px; }
 
 .footer_phone {
   font-family: Tahoma, Verdana, Segoe, sans-serif;
@@ -3653,7 +3655,7 @@ pre {
   display: block;
   margin: 0 auto;
   max-width: 417px;
-  height: 43px;
+  height: 28px;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
@@ -3856,6 +3858,8 @@ pre {
 	overflow: hidden;
   margin-top: 16px;*/
   position: relative;
+  padding: 0 28px 0 36px;
+  margin: 56px 0 0 0;
   /*! lightslider - v1.1.3 - 2015-04-14
   * https://github.com/sachinchoolur/lightslider
   * Copyright (c) 2015 Sachin N; Licensed MIT */
@@ -3884,11 +3888,20 @@ pre {
   .footer-slider-list {
     position: relative; }
   .footer-slider_item {
-    max-width: 25%; }
+    overflow: hidden; }
+    .footer-slider_item__1 {
+      max-width: 204px; }
+    .footer-slider_item__2 {
+      max-width: 209px; }
+    .footer-slider_item__3 {
+      max-width: 235px; }
+    .footer-slider_item__4 {
+      max-width: 233px; }
   .footer-slider_link {
     display: block;
     color: #2e2d2d;
-    text-decoration: none; }
+    text-decoration: none;
+    padding: 10px; }
     .footer-slider_link:link {
       color: #2e2d2d; }
     .footer-slider_link:visited {
@@ -3898,9 +3911,10 @@ pre {
     .footer-slider_link:active {
       color: #2e2d2d; }
     .footer-slider_link img {
-      display: block;
-      width: 100%;
-      height: auto; }
+      display: block; }
+  .footer-slider_wrap {
+    -webkit-box-shadow: -3px 0px 7px 0px rgba(0, 0, 0, 0.29);
+    box-shadow: -3px 0px 7px 0px rgba(0, 0, 0, 0.29); }
   .footer-slider_left, .footer-slider_right {
     width: 20px;
     display: block;
@@ -3910,7 +3924,7 @@ pre {
     cursor: pointer;
     position: absolute;
     z-index: 29;
-    margin-top: -20px;
+    margin-top: -22px;
     opacity: 0.7;
     -webkit-transition: opacity 0.35s linear 0s;
     transition: opacity 0.35s linear 0s; }
@@ -3918,7 +3932,7 @@ pre {
       opacity: 1; }
   .footer-slider_left {
     background-position: 0 0;
-    left: -10px; }
+    left: 0; }
   .footer-slider_right {
     background-position: -20px 0;
     right: 0; }
@@ -3933,7 +3947,6 @@ pre {
     .slider_link:hover .footer-slider_title {
       background-color: #d0d0d0; }
   .footer-slider .lSSlideOuter {
-    height: 180px;
     overflow: hidden;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -4230,3 +4243,47 @@ pre {
       color: #292929; }
     .menu-footer_link:active {
       color: #292929; }
+
+.treatment {
+  background-color: #fefcfc;
+  text-align: center;
+  margin: 4px 0 0 -24px;
+  padding: 22px 0 19px 1px;
+  letter-spacing: -1.5px;
+  -webkit-box-shadow: -5px 5px 3px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: -5px 5px 3px 0px rgba(0, 0, 0, 0.06); }
+  .treatment_h1 {
+    font-size: 17px;
+    color: #333232;
+    text-transform: uppercase;
+    margin-bottom: 23px; }
+  .treatment_link {
+    display: block;
+    max-width: 279px;
+    margin: 0 auto 13px auto;
+    padding: 8px 0 14px 0;
+    font-size: 19px;
+    color: #ffffff;
+    text-decoration: none;
+    background: #b9421b;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f2a891), to(#b9421b));
+    background: -webkit-linear-gradient(top, #f2a891 0%, #b9421b 100%);
+    background: linear-gradient(to bottom, #f2a891 0%, #b9421b 100%); }
+    .treatment_link:link {
+      color: #ffffff; }
+    .treatment_link:visited {
+      color: #ffffff; }
+    .treatment_link:hover {
+      color: #ffffff; }
+    .treatment_link:active {
+      color: #ffffff; }
+    .treatment_link__blue {
+      background: #305391;
+      background: -webkit-gradient(linear, left top, left bottom, from(#879eca), to(#305391));
+      background: -webkit-linear-gradient(top, #879eca 0%, #305391 100%);
+      background: linear-gradient(to bottom, #879eca 0%, #305391 100%); }
+    .treatment_link:hover {
+      background: #bab8b8;
+      background: -webkit-gradient(linear, left top, left bottom, from(#e2e2e2), to(#bab8b8));
+      background: -webkit-linear-gradient(top, #e2e2e2 0%, #bab8b8 100%);
+      background: linear-gradient(to bottom, #e2e2e2 0%, #bab8b8 100%); }

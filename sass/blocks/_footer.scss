@@ -8,12 +8,13 @@
 		width: 33.33%;
 	}
 	&_top{
-		padding-top: 38px;
+		padding: 38px 0 49px 0;
 		background: url('../images/footer-bac.png') no-repeat;
 		background-size: cover;
 	}
 	&_bottom{
 		background-color: #d0d0d0;
+		padding: 13px 0 12px 25px;
 	}
 	&_phone{
 		font-family: Tahoma, Verdana, Segoe, sans-serif;

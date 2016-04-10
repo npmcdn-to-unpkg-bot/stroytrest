@@ -21,7 +21,6 @@ $(document).ready(function(){
     slideMargin: 26,
     pager: false,
     controls: false
-    //galleryMargin: 18
   });
   $(".slider_left").click(function(){
     myslider.goToPrevSlide();
@@ -32,10 +31,16 @@ $(document).ready(function(){
   var myslider2 = $(".footer-slider-list").lightSlider({
     item: 4,
     loop:true,
-    slideMargin: 24,
+    slideMargin: 15,
     pager: false,
-    controls: false
-    //galleryMargin: 18
+    controls: false,
+    autoWidth: true
+  });
+  $(".footer-slider_left").click(function(){
+    myslider2.goToPrevSlide();
+  });
+  $(".footer-slider_right").click(function(){
+    myslider2.goToNextSlide();
   });
 
 
