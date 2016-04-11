@@ -53,5 +53,29 @@
 				background: url('../images/services-block-3.png');
 			}
 		}
+		@include old-ie{
+    	.services-block_item:first-child + * &{
+    		&:before{
+					content: "";
+					position: absolute;
+					left: 1px;
+					top: 0;
+					width: 43px;
+					height: 43px;
+					background: url('../images/services-block-2.png');
+				}
+    	}
+    	.services-block_item:first-child + * + * &{
+    		&:before{
+					content: "";
+					position: absolute;
+					left: 1px;
+					top: 0;
+					width: 43px;
+					height: 43px;
+					background: url('../images/services-block-3.png');
+				}
+    	}
+    }
 	}
 }

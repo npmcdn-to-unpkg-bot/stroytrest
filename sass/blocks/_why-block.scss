@@ -39,6 +39,18 @@
 				background-position: -86px 0;
 			}
 		}
+		@include old-ie{
+    	.why-block_item:first-child + * &{
+    		&:before{
+					background-position: -43px 0;
+				}
+    	}
+    	.why-block_item:first-child + * + * &{
+    		&:before{
+					background-position: -86px 0;
+				}
+    	}
+    }
 	}
 	&_p{
 		letter-spacing: -0.4px;

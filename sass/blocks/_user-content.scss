@@ -12,9 +12,37 @@
 	  	margin-bottom: 0; 
 	  }
 	}
+	.colorbox-insert-image {
+    float: left;
+    margin: 0 0 0px 3.9402%;
+    width: 48.0299%;
+    &:nth-child(2n-1){
+    	margin-left: 0;
+    }
+    @include old-ie{
+    	&:first-child{
+    		margin-left: 0;
+    	}
+    	&:first-child + * + *{
+    		margin-left: 0;
+    	}
+    	&:first-child + * + * + * + *{
+    		margin-left: 0;
+    	}
+    	&:first-child + * + * + * + * + * + *{
+    		margin-left: 0;
+    	}
+    }
+    img{
+    	margin: 10px 0 18px 0;
+    	width: 100%;
+    	height: auto;
+    }
+	}
 	p{
 		line-height: 1.42;
 		margin-bottom: 20px;
+
 	}
 	h1{
 	  font-weight: bold;
