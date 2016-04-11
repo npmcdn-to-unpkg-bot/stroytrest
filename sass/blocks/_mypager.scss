@@ -1,21 +1,24 @@
 .mypager{
 	text-align: center;
-	padding-top: 23px;
+	padding-top: 47px;
+	margin-left: 2px;
 	@include clearfix;
 	&_item{
 		display: inline-block;
-		//font-size: 18px;
-		padding: 4px 3px;
+		font-size: 16px;
+		padding: 5px 7px;
 		&__current{
-			padding: 4px 9px;
-			border-radius: 10px;
-			//font-size: 24px;
-			color: #44a2b0;
+			padding: 5px 7px;
+			color: #fbfbfb;
+			background-color: #3e67ae;
 		}
 		a{
-			//font-size: 18px;
+			font-size: 16px;
 			text-decoration: none;
-			//@include link(#6a6a6d, #6a6a6d);
+			@include link(#737272, #737272);
+			&:hover{
+				text-decoration: underline;
+			}
 		}
 	}
 }

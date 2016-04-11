@@ -1,5 +1,5 @@
 .why-block{
-	padding-bottom: 18px;
+	padding-bottom: 17px;
 	&_h1{
 		padding-bottom: 15px;
 		margin-bottom: 18px;
@@ -27,7 +27,17 @@
 			top: 0;
 			width: 43px;
 			height: 43px;
-			background: url('../images/why-block-1.png');
+			background: url('../images/why-block-icons.png');
+		}
+		.why-block_item:nth-child(2) &{
+			&:before{
+				background-position: -43px 0;
+			}
+		}
+		.why-block_item:nth-child(3) &{
+			&:before{
+				background-position: -86px 0;
+			}
 		}
 	}
 	&_p{
