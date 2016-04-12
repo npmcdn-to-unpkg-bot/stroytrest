@@ -1,0 +1,30 @@
+.contacts{
+	color: #2e2d2d;
+	padding-top: 6px;
+	&_map{
+		width: 364px;
+		height: 277px;
+		float: right;
+		margin-left: 20px;
+		background-color: #ccc;
+	}
+	p{
+		margin-bottom: 12px;
+		line-height: 1.28;
+	}
+	table{
+		margin-top: 42px;
+		td{
+			font-size: 14px;
+			line-height: 1.1;
+	    letter-spacing: 0;
+			&:nth-child(2){
+	    	max-width: 290px;
+	    	p{
+	    		line-height: 1.1;
+	    		letter-spacing: 0;
+	    	}
+	    }
+		}
+	}
+}

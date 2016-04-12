@@ -3,22 +3,36 @@
 	height: 435px;
 	background-color: #5da9b4;
 	padding: 70px 55px;*/
+	width: 434px;
+	padding: 44px 39px 50px 39px;
+	background-color: #3e67ae;
 	& .messages{
 		display: none;
 	}
 	&_title{
+		font-family: Tahoma, Verdana, Segoe, sans-serif;
+		font-size: 36px;
 		text-transform: uppercase;
 		text-align: center;
+		color: #fff;
+		letter-spacing: -0.3px;
+		margin-bottom: 45px;
 	}
 	&_inner{
 		margin: 0 0 25px 0;
 		input{
-			height: 58px;
+			font-family: $font;
+		  color: #737272;
+		  font-size: 20px;
+			height: 46px;
 			width: 100%;
-			padding: 0 15px;
+			padding: 0 15px 3px 15px;
 			border: none;
 			text-align: center;
 			box-shadow: inset 0px 0px 1px 1px rgba(0,0,0,0.51);
+			@include old-ie{
+				padding: 8px 0 0 0;
+			}
 			&.error{
 				box-shadow: inset 0px 0px 5px 1px rgba(255,0,0,1),
 										1px 0px 1px 0px rgba(0,0,0,0.3);
@@ -26,18 +40,25 @@
 		}		
 	}
 	&_button{
-		margin: 55px 0 8px 0;
+		margin: 38px 0 8px 0;
 		position: relative;
 		input{
+			font-family: Tahoma, Verdana, Segoe, sans-serif;
+			color: #fff;
+			font-size: 19px;
 			display: block;
-			width: 206px;
+			width: 169px;
+			height: 41px;
 			margin: 0 auto;
+			padding-bottom: 3px;
 			border: none;
 			text-transform: uppercase;
 			cursor: pointer;
-			box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.24);
+			background: rgba(184,67,28,1);
+			background: linear-gradient(to bottom, rgba(242,168,145,1) 0%, rgba(184,67,28,1) 100%);
 			&:hover{
-				box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+				background: rgba(185,184,184,1);
+				background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(185,184,184,1) 100%);
 			}
 		}
 	}
@@ -46,40 +67,40 @@
 
 		}
 	}
-	/*::-webkit-input-placeholder {
+	::-webkit-input-placeholder {
 	  font-family: $font;
-	  color: #6a6a6d;
-	  font-size: 18px;
+	  color: #737272;
+	  font-size: 24px;
 	  opacity: 1;
 	}
 	:-moz-placeholder {
 	  font-family: $font;
-	  color: #6a6a6d;
-	  font-size: 18px;
+	  color: #737272;
+	  font-size: 24px;
 	  opacity: 1;
 	}
 	::-moz-placeholder {
 	  font-family: $font;
-	  color: #6a6a6d;
-	  font-size: 18px;
+	  color: #737272;
+	  font-size: 24px;
 	  opacity: 1;
 	}
 	:-ms-input-placeholder {
 	  font-family: $font;
-	  color: #6a6a6d;
-	  font-size: 18px;
+	  color: #737272;
+	  font-size: 24px;
 	  opacity: 1;
 	}
 	::-ms-input-placeholder {
 	  font-family: $font;
-	  color: #6a6a6d;
-	  font-size: 18px;
+	  color: #737272;
+	  font-size: 24px;
 	  opacity: 1;
 	}
 	:placeholder-shown {
 	  font-family: $font;
-	  color: #6a6a6d;
-	  font-size: 18px;
+	  color: #737272;
+	  font-size: 24px;
 	  opacity: 1;
-	}*/
+	}
 }

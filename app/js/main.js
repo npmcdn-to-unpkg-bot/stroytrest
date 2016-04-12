@@ -1,6 +1,6 @@
 $(document).ready(function(){
   /***********************************/
-  $(".header_link").colorbox({inline:true, href:"#form1"});
+  $(".header_button").colorbox({inline:true, href:"#form1"});
   /*$(".menuRight_list__l2").each(function(){
     $(this).hide();
   });*/
@@ -104,21 +104,20 @@ $(document).ready(function(){
   //   console.log('#container background image loaded');
   // });
   /***********************************/
-
   //heightDetect();
   /*$(window).resize(function() {
     console.log('d');
     heightDetect();
   });*/
   /***********************************/
-  $('[data-type="background"]').each(function(){
+  /*$('[data-type="background"]').each(function(){
       var $bgobj = $(this);
       $(window).scroll(function() {
-          var yPos = -($(window).scrollTop() / $bgobj.data('speed')); // вычисляем коэффициент 
+          var yPos = -($(window).scrollTop() / $bgobj.data('speed'));
           var coords = 'center '+ yPos + 'px';
           $bgobj.css({ backgroundPosition: coords });
       });
-  });
+  });*/
   /************************************************************************/
   if($("#map").length>0) {
     var map;
@@ -150,7 +149,7 @@ $(document).ready(function(){
       {name: "Styled Map"});*/
       var mapOptions = {
         zoom: 17,
-        center: myCenter,
+        center: myCenter
         /*mapTypeControlOptions: {
           mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
         }*/
@@ -159,7 +158,7 @@ $(document).ready(function(){
           mapOptions);
       var marker = new google.maps.Marker({
           position: myLatlng,
-          title:"Webformat",
+          title:"Webformat"
           //icon: '../images/footer-marker.png'
       });
       marker.setMap(map);

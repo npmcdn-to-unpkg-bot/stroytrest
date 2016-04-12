@@ -11,5 +11,8 @@
 		width: 77.3%;
 		padding-top: 39px;
 		padding-left: 38px;
+		@include old-ie{
+			*width: 73%;
+		}
 	}
 }
