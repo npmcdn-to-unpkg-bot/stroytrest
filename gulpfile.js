@@ -49,7 +49,7 @@ gulp.task('css', function () {
     }))
     .pipe(gulp.dest('css'))
     .pipe(gulp.dest('app/css'))
-    //.pipe(gulp.dest('d:/OpenServer/domains/world/sites/all/themes/world/css'))
+    .pipe(gulp.dest('d:/OpenServer/domains/stroytrest/sites/all/themes/stroytrest/css'))
     .pipe(connect.reload())
     .pipe(notify('CSS - Done!'));
 });
