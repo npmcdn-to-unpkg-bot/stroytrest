@@ -3428,6 +3428,10 @@ pre {
         background: -webkit-gradient(linear, left top, left bottom, from(#e2e2e2), to(#b9b8b8));
         background: -webkit-linear-gradient(top, #e2e2e2 0%, #b9b8b8 100%);
         background: linear-gradient(to bottom, #e2e2e2 0%, #b9b8b8 100%); }
+  .form-popup_confirmation p {
+    color: #fff;
+    text-align: center;
+    padding: 0 20px; }
   .form-popup ::-webkit-input-placeholder {
     font-family: Verdana, Geneva, sans-serif;
     color: #737272;
@@ -4628,3 +4632,127 @@ pre {
     background: url("../images/products-list.png") no-repeat;
     width: 24px;
     height: 4px; }
+
+.form-electron {
+  padding-bottom: 75px;
+  /*width: 466px;
+	height: 435px;
+	background-color: #5da9b4;
+	padding: 70px 55px;*/
+  max-width: 505px; }
+  .form-electron .messages {
+    display: none; }
+  .form-electron_title {
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: -0.3px;
+    margin-bottom: 45px; }
+  .form-electron_inner {
+    margin: 0 0 19px 0; }
+    .form-electron_inner input {
+      font-family: Verdana, Geneva, sans-serif;
+      color: #737272;
+      font-size: 16px;
+      height: 31px;
+      width: 100%;
+      padding: 0 15px 3px 15px;
+      border: 1px solid #cccccc;
+      -webkit-box-shadow: inset 0px 0px 0px 1px #e6e6e6;
+      box-shadow: inset 0px 0px 0px 1px #e6e6e6; }
+      .form-electron_inner input.error {
+        -webkit-box-shadow: inset 0px 0px 5px 1px red, 1px 0px 1px 0px rgba(0, 0, 0, 0.3);
+        box-shadow: inset 0px 0px 5px 1px red, 1px 0px 1px 0px rgba(0, 0, 0, 0.3); }
+    .form-electron_inner textarea {
+      font-size: 16px;
+      padding: 5px 15px 5px 15px;
+      color: #737272;
+      height: 131px;
+      border: 1px solid #cccccc;
+      -webkit-box-shadow: inset 0px 0px 0px 1px #e6e6e6;
+      box-shadow: inset 0px 0px 0px 1px #e6e6e6; }
+      .form-electron_inner textarea.error {
+        -webkit-box-shadow: inset 0px 0px 5px 1px red, 1px 0px 1px 0px rgba(0, 0, 0, 0.3);
+        box-shadow: inset 0px 0px 5px 1px red, 1px 0px 1px 0px rgba(0, 0, 0, 0.3); }
+    .form-electron_inner label {
+      font-size: 12px;
+      font-weight: bold;
+      color: #737272;
+      margin-bottom: 9px; }
+      .form-electron_inner label .form-required {
+        position: relative;
+        left: -4px; }
+  .form-electron_button {
+    margin: 0 0 8px 0;
+    position: relative;
+    text-align: right; }
+    .form-electron_button input {
+      font-family: Tahoma, Verdana, Segoe, sans-serif;
+      color: #fff;
+      font-size: 19px;
+      display: inline-block;
+      width: 169px;
+      height: 41px;
+      margin: 0 auto;
+      padding-bottom: 3px;
+      border: none;
+      text-transform: uppercase;
+      cursor: pointer;
+      background: #b8431c;
+      background: -webkit-gradient(linear, left top, left bottom, from(#f2a891), to(#b8431c));
+      background: -webkit-linear-gradient(top, #f2a891 0%, #b8431c 100%);
+      background: linear-gradient(to bottom, #f2a891 0%, #b8431c 100%); }
+      .form-electron_button input:hover {
+        background: #b9b8b8;
+        background: -webkit-gradient(linear, left top, left bottom, from(#e2e2e2), to(#b9b8b8));
+        background: -webkit-linear-gradient(top, #e2e2e2 0%, #b9b8b8 100%);
+        background: linear-gradient(to bottom, #e2e2e2 0%, #b9b8b8 100%); }
+      #webform-client-form-48 .form-electron_button input {
+        background: #305391;
+        background: -webkit-gradient(linear, left top, left bottom, from(#879eca), to(#305391));
+        background: -webkit-linear-gradient(top, #879eca 0%, #305391 100%);
+        background: linear-gradient(to bottom, #879eca 0%, #305391 100%); }
+        #webform-client-form-48 .form-electron_button input:hover {
+          background: #b9b8b8;
+          background: -webkit-gradient(linear, left top, left bottom, from(#e2e2e2), to(#b9b8b8));
+          background: -webkit-linear-gradient(top, #e2e2e2 0%, #b9b8b8 100%);
+          background: linear-gradient(to bottom, #e2e2e2 0%, #b9b8b8 100%); }
+  .form-electron_files label {
+    font-size: 12px;
+    margin: 21px 0 0 0; }
+  .form-electron_files input.multi {
+    font-size: 10px; }
+  .form-electron_confirmation p {
+    border: 2px solid green;
+    padding: 10px; }
+  .form-electron ::-webkit-input-placeholder {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #737272;
+    font-size: 24px;
+    opacity: 1; }
+  .form-electron :-moz-placeholder {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #737272;
+    font-size: 24px;
+    opacity: 1; }
+  .form-electron ::-moz-placeholder {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #737272;
+    font-size: 24px;
+    opacity: 1; }
+  .form-electron :-ms-input-placeholder {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #737272;
+    font-size: 24px;
+    opacity: 1; }
+  .form-electron ::-ms-input-placeholder {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #737272;
+    font-size: 24px;
+    opacity: 1; }
+  .form-electron :placeholder-shown {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #737272;
+    font-size: 24px;
+    opacity: 1; }
