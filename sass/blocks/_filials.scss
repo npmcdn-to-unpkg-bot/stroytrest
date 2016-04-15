@@ -1,0 +1,29 @@
+.filials{
+	letter-spacing: -0.1px;
+   padding: 29px 0 33px;
+	&_h1{
+	  font-weight: bold;
+	  font-size: 21px;	  
+	  color: $hColor;
+	  margin-bottom: 19px;
+	  letter-spacing: -0.35px;
+	  line-height: 1.15;
+	  text-transform: uppercase;
+	}
+	&_h2{
+		line-height: 1.42;
+		font-weight: bold;
+	}
+	p{
+		line-height: 1.42;
+		margin-bottom: 20px;
+	}
+	&_item{
+		border-top: 1px solid #737272;
+		padding-top: 20px;
+		&:first-child{
+			border: none;
+			padding-top: 0;
+		}
+	}
+}

@@ -5,12 +5,38 @@
 	max-height: 520px;
 	overflow: hidden;
   margin-top: 16px;*/
-  
   padding: 16px 44px 2px 36px;
   position: relative;
+  &_loader{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    &__show{
+      display: block;
+    }
+  }
+  &_gif{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: url('../images/slider-loader.gif');
+    left: 50%;
+    top: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+  }
 	&_wrap{
 		@include clearfix;
 	}
+  &_inner{
+    max-height: 180px;
+    overflow: hidden;
+    position: relative;
+  }
   &_link{
     display: block;
     @include link(#2e2d2d, #2e2d2d);
