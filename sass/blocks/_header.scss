@@ -5,16 +5,24 @@
 	}
 	&_left{
 		float: left;
-		width: 60%;
+		width: 65%;
 	}
 	&_right{
 		float: left;
-		width: 40%;
+		width: 35%;
 		text-align: right;
 	}
+	&_text{
+		overflow: hidden;
+		padding: 43px 10px 5px 22px;
+		p{
+			margin-bottom: 11px;
+			letter-spacing: -0.4px;
+		}
+	}
 	&_logo{
-		display: block;
-		max-width: 521px;
+		float: left;
+		max-width: 141px;
 		img{
 			width: 100%;
 			height: auto;
