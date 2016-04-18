@@ -1,6 +1,7 @@
 .menu-main{
 	background-color: #3e67ae;
 	margin-top: 18px;
+	//overflow-y: visible;
 	&_inner{
 		position: absolute;
 		z-index: 10;
@@ -8,6 +9,10 @@
 		left: 0px;
 		overflow: hidden;
 		visibility: hidden;
+		.menu-main_item:last-child &{
+			left: auto;
+			right: 0px;
+		}
   }
 	&_list{
 		height: 54px;
@@ -28,6 +33,9 @@
       	visibility: visible;
       	transform: translateY(0);
       	transition-delay: 0s;
+      }
+      .menu-main_item:last-child &{
+      	text-align: right;
       }
     }
     @include old-ie{
