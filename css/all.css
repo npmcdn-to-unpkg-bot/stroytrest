@@ -2843,7 +2843,7 @@ pre {
         .header_phone p:first-child span:before {
           content: "";
           position: absolute;
-          left: -32px;
+          left: -93px;
           top: 2px;
           background: url("../images/header-icon.png");
           width: 20px;
