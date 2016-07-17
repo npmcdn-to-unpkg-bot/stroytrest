@@ -8,4 +8,12 @@
 	overflow: hidden;
 	background: url('../images/wfs.png') no-repeat;
 	background-size: contain;
+	&__be{
+		max-width: 413px;
+		background: url('../images/wfs-be.png') no-repeat;
+	}
+	&__en{
+		max-width: 440px;
+		background: url('../images/wfs-en.png') no-repeat;
+	}
 }

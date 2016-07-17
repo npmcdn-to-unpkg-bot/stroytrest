@@ -2822,10 +2822,39 @@ pre {
     text-align: right; }
   .header_text {
     overflow: hidden;
-    padding: 43px 10px 5px 22px; }
+    padding: 43px 10px 5px 22px;
+    position: relative; }
     .header_text p {
       margin-bottom: 11px;
       letter-spacing: -0.4px; }
+    .header_text h2 {
+      display: none; }
+    .header_text ul {
+      position: absolute;
+      left: 22px;
+      top: 15px; }
+      .header_text ul li {
+        display: inline-block; }
+        .header_text ul li a {
+          color: #0000ee; }
+          .header_text ul li a:link {
+            color: #0000ee; }
+          .header_text ul li a:visited {
+            color: #0000ee; }
+          .header_text ul li a:hover {
+            color: #ff0000; }
+          .header_text ul li a:active {
+            color: #ff0000; }
+      .header_text ul li.active a {
+        color: #ff0000; }
+        .header_text ul li.active a:link {
+          color: #ff0000; }
+        .header_text ul li.active a:visited {
+          color: #ff0000; }
+        .header_text ul li.active a:hover {
+          color: #ff0000; }
+        .header_text ul li.active a:active {
+          color: #ff0000; }
   .header_logo {
     float: left;
     max-width: 141px; }
@@ -3848,6 +3877,12 @@ pre {
   overflow: hidden;
   background: url("../images/wfs.png") no-repeat;
   background-size: contain; }
+  .wfs__be {
+    max-width: 413px;
+    background: url("../images/wfs-be.png") no-repeat; }
+  .wfs__en {
+    max-width: 440px;
+    background: url("../images/wfs-en.png") no-repeat; }
 
 .map {
   /*height: 463px;
